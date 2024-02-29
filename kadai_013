@@ -1,0 +1,4 @@
+def calc_consumption_tax(price,tax_rate):
+    total=price*(1+tax_rate)
+    print(f'{total}円')
+calc_consumption_tax(1000,0.10)
